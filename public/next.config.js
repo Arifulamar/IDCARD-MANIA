@@ -8,6 +8,7 @@ const withPWA = require('next-pwa')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',      // Sangat penting untuk GitHub Pages
+  basePath: '/IDCARD-MANIA', // Ganti dengan nama repositori Anda jika bukan username.github.io
   images: {
     unoptimized: true,   // Agar gambar muncul di GitHub Pages
   },
